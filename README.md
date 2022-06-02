@@ -34,10 +34,21 @@ The anatomical coordinate system                                                
 
 The Baseline Model
 ----------------------
+
+Our baseline model is a convolutional neural network with five convolutional layers and three dense layers.
+It uses the sigmoid activation functions, which performed better than ReLU.
+
 <img src='./media/cnn_baseline.png' width=600px>
 
 The MobileNetV2 Model
 --------------------------
+
+Since we have limited data, it is hard to get an accurate model training a convolutional neural network from scratch. 
+For this reason, we applied transfer learning, using pre-trained weights from the MobileNetV2 model.
+We added a global average pooling layer and randomly dropped out 50% of the neurons to prevent overfitting. 
+The MobileNetV2 model was chosen because this architecture tends to perform well on mobile devices with limited storage, memory and computing power. 
+Specifically, it requires fewer parameters, has relatively high accuracy on the ImageNet dataset, and is faster than all other deep learning models with pre-trained weights on Keras.
+
 <img src='./media/cnn.png' width=600px>
 
 Results
