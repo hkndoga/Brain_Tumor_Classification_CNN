@@ -8,5 +8,6 @@ This is a convolutional neural network that takes in MRI scans of the brain and 
 Background
 ----------
 
+![MRI planes](https://github.com/eordog/erdos_artemis/blob/media/mri_planes.jpg?raw=true)
 
 
