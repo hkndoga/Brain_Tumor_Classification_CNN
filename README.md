@@ -9,7 +9,7 @@ Background
 ----------
 
 Brain and spinal cord tumors are masses of abnormal cells in the brain or spinal cord that have grown out of control.
-It is very important to distinguish between benign (non-cancerous) tumors and malignant tumors (cancers). 
+It is very important to distinguish between benign (non-cancerous) tumors and malignant (cancerous) tumors. 
 MRI scans are considered the best way to look for tumors in these areas.
 
 However, brain tumor diagnosis requires manual examination of MRI images by a radiologist. 
