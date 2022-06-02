@@ -48,6 +48,7 @@ For this reason, we applied transfer learning, using pre-trained weights from th
 We added a global average pooling layer and randomly dropped out 50% of the neurons to prevent overfitting. 
 The MobileNetV2 model was chosen because this architecture tends to perform well on mobile devices with limited storage, memory and computing power. 
 Specifically, it requires fewer parameters, has relatively high accuracy on the ImageNet dataset, and is faster than all other deep learning models with pre-trained weights on Keras.
+This model uses the softmax activation function and splits the data into 90% training, 10% testing, and further splits 10% of the training data into a validation set.
 
 <img src='./media/cnn.png' width=600px>
 
