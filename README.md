@@ -55,7 +55,11 @@ This model uses the softmax activation function and splits the data into 90% tra
 Results
 ---------------
 
+On the testing set, the accuracies of the models are as follows: Baseline--88%, InceptionV3--94%, and MobileNetV2--95%.
 
+The precision and recall for the MobileNetV2 model are displayed in the table below.
+
+<img src = './media/precision_recall.png' width=400px>
 
 
 
