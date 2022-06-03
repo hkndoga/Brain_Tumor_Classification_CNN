@@ -43,12 +43,8 @@ It uses the sigmoid activation functions, which performed better than ReLU.
 The MobileNetV2 Model
 --------------------------
 
-Since we have limited data, it is hard to get an accurate model training a convolutional neural network from scratch. 
-For this reason, we applied transfer learning, using pre-trained weights from the MobileNetV2 model.
-We added a global average pooling layer and randomly dropped out 50% of the neurons to prevent overfitting. 
-The MobileNetV2 model was chosen because this architecture tends to perform well on mobile devices with limited storage, memory and computing power. 
-Specifically, it requires fewer parameters, has relatively high accuracy on the ImageNet dataset, and is faster than all other deep learning models with pre-trained weights on Keras.
-This model uses the softmax activation function and splits the data into 90% training, 10% testing, and further splits 10% of the training data into a validation set.
+It is difficult to train an accurate CNN model with limited amount of data. And even with large datasets, it may take days or even weeks to train a CNN model. Therefore, we applied the concept of transfer learning to this project. Here, we used pre-trained weights of the MobileNetV2 model on the ImageNet dataset to train our brain tumor MRI image classification model. At the end of the model, we added a global average pooling layer and randomly dropped out 50% of the neurons to prevent overfitting. Softmax activation function was applied to generate the output layer. We chose the MobileNetV2 model over all other pre-built CNN architecture on Keras because it has high accuracy, less parameters, and short inference time. Therefore, it performs well on mobile devices with limited storage, memory, and computing power. 
+
 
 <img src='./media/cnn.png' width=600px>
 
