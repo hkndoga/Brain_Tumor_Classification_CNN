@@ -17,7 +17,10 @@ This process can be error-prone, and in some regions, the lack of access to expe
 
 The goal of this project is to improve the speed and accuracy of identifying and classifying brain tumors in MRI scans, which can facilitate the diagnostic process for healthcare provides and help patients receive faster and more accurate treatment.
 
-<img src='./media/brain_anatomy.png' width=300px> <img src='./media/tumor_type.png' width=700px>
+<p float="left">
+  <img src="./media/brain_anatomy.png" width="300" />
+  <img src="./media/tumor_type.png" width="700" /> 
+</p>
 https://commons.wikimedia.org/wiki/File:Brain_Anatomy_(Sagittal).png
 
 Data
